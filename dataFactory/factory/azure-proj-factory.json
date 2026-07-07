@@ -1,0 +1,15 @@
+{
+	"name": "azure-proj-factory",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5e21f24d-6f37-490d-82e4-1462ad103d7f",
+		"tenantId": "550c4679-8294-4fd6-894b-287841faf736"
+	}
+}
